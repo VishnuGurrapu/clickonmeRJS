@@ -17,7 +17,7 @@ class ClickCounter extends Component {
           The Button has been clicked <br />{' '}
           <span className="counter">{count}</span> Time{' '}
         </h1>
-        <p className="para">Click the button to increase the couunt</p>
+        <p className="para">Click the button to increase the count!</p>
         <button className="btn" onClick={this.onClick}>
           Click me!
         </button>
